@@ -1,9 +1,22 @@
+* {
+    text-align: center;
+}
+
+#grid {
+    width: 960px;
+    height: 960px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid;
+}
+
 .cell {
-        width: 30px;
-        height: 30px;
         float: left;
         border: solid;
-        margin: 1px;
+        margin: 0px;
+        padding: 0px;
+        border-width: 0px;
 }
 
 .cell.active {
